@@ -1,0 +1,3667 @@
+[
+  {
+    "codigo": "1",
+    "classificacao": "1",
+    "descricao": "ATIVO",
+    "saldo_anterior": 21209514.46,
+    "debito": 473793521.77,
+    "credito": 462337228.16,
+    "saldo_atual": 32665808.07,
+    "nivel": 0,
+    "filhos": [
+      {
+        "codigo": "3",
+        "classificacao": "1.1.01",
+        "descricao": "DISPONIBILIDADES",
+        "saldo_anterior": 626842.32,
+        "debito": 259912726.99,
+        "credito": 257495149.74,
+        "saldo_atual": 3044419.57,
+        "nivel": 2,
+        "filhos": [
+          {
+            "codigo": "6",
+            "classificacao": "1.1.01.010.002",
+            "descricao": "FUNDO FIXO",
+            "saldo_anterior": 0.0,
+            "debito": 2031576.92,
+            "credito": 265525.52,
+            "saldo_atual": 1766051.4,
+            "nivel": 4,
+            "filhos": []
+          },
+          {
+            "codigo": "11",
+            "classificacao": "1.1.01.020.001",
+            "descricao": "ZUCO FORTE ITAU 99296-7",
+            "saldo_anterior": 1.0,
+            "debito": 95575157.76,
+            "credito": 95575157.76,
+            "saldo_atual": 1.0,
+            "nivel": 4,
+            "filhos": []
+          },
+          {
+            "codigo": "13",
+            "classificacao": "1.1.01.020.003",
+            "descricao": "ZUCO FORTE FF CRED SCD",
+            "saldo_anterior": 286622.54,
+            "debito": 63300000.0,
+            "credito": 63369734.17,
+            "saldo_atual": 216888.37,
+            "nivel": 4,
+            "filhos": []
+          },
+          {
+            "codigo": "30",
+            "classificacao": "1.1.01.03",
+            "descricao": "BANCOS CONTA APLICAÇÃO",
+            "saldo_anterior": 101947.45,
+            "debito": 16785441.77,
+            "credito": 16095287.58,
+            "saldo_atual": 792101.64,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "32",
+                "classificacao": "1.1.01.030.002",
+                "descricao": "APLICAÇÃO CONTAMAX SANTANDER",
+                "saldo_anterior": 0.0,
+                "debito": 5387749.01,
+                "credito": 5008448.9,
+                "saldo_atual": 379300.11,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "51",
+                "classificacao": "1.1.01.040.001",
+                "descricao": "ZUCO FORTE QUITACAO CARTA FRETE",
+                "saldo_anterior": 0.0,
+                "debito": 59717064.36,
+                "credito": 59717064.36,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "999",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "ALELO ZUCO FORTE",
+                "saldo_anterior": 15000.0,
+                "debito": 88787.09,
+                "credito": 98479.59,
+                "saldo_atual": 5307.5,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63874",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA ANTONIO ALVES DE OLIVEIRA",
+                "saldo_anterior": 0.0,
+                "debito": 150.0,
+                "credito": 0.0,
+                "saldo_atual": 150.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63607",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA CAVOUR JORGE CHRISPIM",
+                "saldo_anterior": 0.0,
+                "debito": 4981.17,
+                "credito": 4948.09,
+                "saldo_atual": 33.08,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "84",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA CLAUDIVINO APARECIDO NASCIMENTO",
+                "saldo_anterior": 740.0,
+                "debito": 10240.0,
+                "credito": 10230.0,
+                "saldo_atual": 750.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "92",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA DANIEL FRANCISCO",
+                "saldo_anterior": 750.0,
+                "debito": 68.0,
+                "credito": 818.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "994",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA DIONATAN IRACET DE SOUZA PAIVA",
+                "saldo_anterior": 0.0,
+                "debito": 7250.0,
+                "credito": 7250.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "993",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA ELITON SILVA FORNAZIERE JUNIOR",
+                "saldo_anterior": 0.0,
+                "debito": 4520.42,
+                "credito": 4228.92,
+                "saldo_atual": 291.5,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "94",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA FILIPE DE OLIVEIRA BELEM",
+                "saldo_anterior": 0.0,
+                "debito": 1200.0,
+                "credito": 1200.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63701",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA HIGOR BARBOSA DE CASTRO",
+                "saldo_anterior": 0.0,
+                "debito": 3300.0,
+                "credito": 3300.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "98",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA JOAO PAULO DE SOUZA",
+                "saldo_anterior": 0.0,
+                "debito": 9274.0,
+                "credito": 7374.0,
+                "saldo_atual": 1900.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "81",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA JOSE RONILDO OLIVEIRA",
+                "saldo_anterior": 240.0,
+                "debito": 24300.0,
+                "credito": 24540.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "88",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA JULIO MARIA DE OLIVEIRA FILHO",
+                "saldo_anterior": 1000.0,
+                "debito": 26066.12,
+                "credito": 26566.12,
+                "saldo_atual": 500.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63772",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA KLEBER WESLLEY SOARES",
+                "saldo_anterior": 0.0,
+                "debito": 5210.0,
+                "credito": 4850.0,
+                "saldo_atual": 360.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "995",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA MANOEL KAMENACH",
+                "saldo_anterior": 0.0,
+                "debito": 3600.0,
+                "credito": 3600.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "91",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA RENATO RODRIGUES",
+                "saldo_anterior": 180.0,
+                "debito": 0.0,
+                "credito": 180.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "998",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA RODOLFO OLIVEIRA",
+                "saldo_anterior": 0.0,
+                "debito": 1600.0,
+                "credito": 1046.11,
+                "saldo_atual": 553.89,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "86",
+                "classificacao": "1.1.01.050.001",
+                "descricao": "CAIXA MOTORISTA WASHINGTON FURQUIM DE SOUZA",
+                "saldo_anterior": 1000.0,
+                "debito": 3000.0,
+                "credito": 4000.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63541",
+                "classificacao": "1.1.01.050.002",
+                "descricao": "CAIXA MOTORISTA CLEITON EVANGELISTA",
+                "saldo_anterior": 0.0,
+                "debito": 4560.0,
+                "credito": 4560.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63549",
+                "classificacao": "1.1.01.050.002",
+                "descricao": "CAIXA MOTORISTA RODRIGO FERREIRA MONTES",
+                "saldo_anterior": 0.0,
+                "debito": 3958.0,
+                "credito": 3958.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63696",
+                "classificacao": "1.1.01.050.002",
+                "descricao": "CAIXA MOTORISTA VITOR HUGO VILELA RESENDE",
+                "saldo_anterior": 0.0,
+                "debito": 120.0,
+                "credito": 0.0,
+                "saldo_atual": 120.0,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "codigo": "101",
+            "classificacao": "1.1.02.01",
+            "descricao": "DUPLICATAS A RECEBER",
+            "saldo_anterior": 15871017.69,
+            "debito": 193883118.09,
+            "credito": 192515244.84,
+            "saldo_atual": 17238890.94,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "63741",
+                "classificacao": "1.1.02.010.001",
+                "descricao": "SOMAFERTIL CAMINHOES LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 1000.0,
+                "credito": 0.0,
+                "saldo_atual": 1000.0,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "codigo": "200",
+            "classificacao": "1.1.02.12",
+            "descricao": "ADIANTAMENTOS",
+            "saldo_anterior": 0.0,
+            "debito": 549202.13,
+            "credito": 66265.16,
+            "saldo_atual": 482936.97,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "203",
+                "classificacao": "1.1.02.120.001",
+                "descricao": "ADIANTAMENTO DE FÉRIAS",
+                "saldo_anterior": 0.0,
+                "debito": 20331.83,
+                "credito": 16793.55,
+                "saldo_atual": 3538.28,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "codigo": "220",
+            "classificacao": "1.1.02.14",
+            "descricao": "ADIANTAMENTO A FORNECEDOR",
+            "saldo_anterior": 12951.39,
+            "debito": 502411.45,
+            "credito": 312802.08,
+            "saldo_atual": 202560.76,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "63435",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A J .S .DE DEUS TRANSPORTES LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 476.0,
+                "credito": 476.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63558",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A MAURICIO DAVID",
+                "saldo_anterior": 0.0,
+                "debito": 3200.0,
+                "credito": 3200.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63655",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A A.JUSTUS HOSPEDAGEM LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 340.0,
+                "credito": 340.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63542",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A AF5 PARTNER CONSULTORIA",
+                "saldo_anterior": 0.0,
+                "debito": 2000.0,
+                "credito": 2000.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63690",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A AQUILES JUNIOR TRANSPORTES LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 315.43,
+                "credito": 315.43,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63443",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A BRUNO DA SILVA DOURADO",
+                "saldo_anterior": 0.0,
+                "debito": 90.0,
+                "credito": 90.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63445",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A CLOVIS MARTINS DE MEDEIROS",
+                "saldo_anterior": 0.0,
+                "debito": 2000.0,
+                "credito": 2000.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63848",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A DANIEL BORGES DUARTE",
+                "saldo_anterior": 0.0,
+                "debito": 2716.48,
+                "credito": 2716.48,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63437",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A ERICO VASCONCELOS CARDOZO",
+                "saldo_anterior": 0.0,
+                "debito": 650.0,
+                "credito": 650.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63431",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A FUJIOKA ELETRO IMAGEM",
+                "saldo_anterior": 0.0,
+                "debito": 15323.86,
+                "credito": 14524.86,
+                "saldo_atual": 799.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63654",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A HELIO RIBEIRO DE SOUZA",
+                "saldo_anterior": 0.0,
+                "debito": 1015.84,
+                "credito": 1015.84,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63460",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A IGOR DE SOUZA BRITO",
+                "saldo_anterior": 0.0,
+                "debito": 5314.0,
+                "credito": 5314.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63664",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A JARBAS LUIZ VINHAL",
+                "saldo_anterior": 0.0,
+                "debito": 1338.0,
+                "credito": 1338.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63688",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A JOSE LUCIANO AMARAL DA MOTA",
+                "saldo_anterior": 0.0,
+                "debito": 2716.59,
+                "credito": 2716.59,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63658",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A LUCKY HOTEL LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 171.62,
+                "credito": 171.62,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63543",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A MAXWELL DE OLIVEIRA",
+                "saldo_anterior": 0.0,
+                "debito": 108000.0,
+                "credito": 108000.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63830",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A NEANDER DUARTE ARAUJO REC",
+                "saldo_anterior": 0.0,
+                "debito": 228.0,
+                "credito": 228.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63444",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A ORIVALDO GONCALVES OLIVEIRA",
+                "saldo_anterior": 0.0,
+                "debito": 2000.0,
+                "credito": 0.0,
+                "saldo_atual": 2000.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63653",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A RIO SAO PAULO LOCACOES LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 2500.0,
+                "credito": 2500.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63442",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A SEBASTIAO CARDOSO DA SILV",
+                "saldo_anterior": 0.0,
+                "debito": 360.0,
+                "credito": 360.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63682",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A SKYTECH IMPRESSORAS E INFORMATICA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 3880.0,
+                "credito": 3880.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63659",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A TRANSMOREIRA TRANSPORTES DE CARGAS EIRELI",
+                "saldo_anterior": 0.0,
+                "debito": 400.0,
+                "credito": 400.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63685",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A TRANSPORTE TRANSFOGUINHO LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 906.8,
+                "credito": 906.8,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63657",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A VAGNER DE VITO & CIA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 270.0,
+                "credito": 270.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63440",
+                "classificacao": "1.1.02.140.001",
+                "descricao": "ADIANTAMENTO A WEMERSON GUERRA DE OLIVEIRA",
+                "saldo_anterior": 0.0,
+                "debito": 3163.29,
+                "credito": 3163.29,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "253",
+                "classificacao": "1.1.02.160.003",
+                "descricao": "COFINS A RECUPERAR/COMPENSAR",
+                "saldo_anterior": 356049.92,
+                "debito": 11134292.93,
+                "credito": 9524439.93,
+                "saldo_atual": 1965902.92,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "262",
+                "classificacao": "1.1.02.160.012",
+                "descricao": "PIS A RECUPERAR/COMPENSAR",
+                "saldo_anterior": 77245.01,
+                "debito": 2417313.6,
+                "credito": 2067787.0,
+                "saldo_atual": 426771.61,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codigo": "501",
+        "classificacao": "1.2.01",
+        "descricao": "REALIZAVEL A LONGO PRAZO",
+        "saldo_anterior": 4249848.65,
+        "debito": 5239345.68,
+        "credito": 346209.0,
+        "saldo_atual": 9142985.33,
+        "nivel": 2,
+        "filhos": [
+          {
+            "codigo": "63869",
+            "classificacao": "1.2.01.040.001",
+            "descricao": "EMPRESTIMO A RPK TRANSPORTES LTDA",
+            "saldo_anterior": 0.0,
+            "debito": 1479.91,
+            "credito": 0.0,
+            "saldo_atual": 1479.91,
+            "nivel": 4,
+            "filhos": []
+          },
+          {
+            "codigo": "63864",
+            "classificacao": "1.2.01.040.001",
+            "descricao": "EMPRESTIMO A ZUCO BAHIA",
+            "saldo_anterior": 0.0,
+            "debito": 15504.34,
+            "credito": 15504.34,
+            "saldo_atual": 0.0,
+            "nivel": 4,
+            "filhos": []
+          },
+          {
+            "codigo": "63867",
+            "classificacao": "1.2.01.040.001",
+            "descricao": "EMPRESTIMO A ZUCO BRASIL LIQUIDOS (ANTECIPAÇÃO)",
+            "saldo_anterior": 0.0,
+            "debito": 31000.0,
+            "credito": 0.0,
+            "saldo_atual": 31000.0,
+            "nivel": 4,
+            "filhos": []
+          },
+          {
+            "codigo": "542",
+            "classificacao": "1.2.01.040.001",
+            "descricao": "EMPRESTIMO A ZUCOLOTO TRANSPORTES",
+            "saldo_anterior": 4139825.85,
+            "debito": 704254.86,
+            "credito": 308359.34,
+            "saldo_atual": 4535721.37,
+            "nivel": 4,
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "codigo": "570",
+        "classificacao": "1.2.03",
+        "descricao": "IMOBILIZADO - MATRIZ",
+        "saldo_anterior": 15547.25,
+        "debito": 155030.95,
+        "credito": 9330.41,
+        "saldo_atual": 161247.79,
+        "nivel": 2,
+        "filhos": [
+          {
+            "codigo": "573",
+            "classificacao": "1.2.03.010.002",
+            "descricao": "MÓVEIS E UTENSÍLIOS",
+            "saldo_anterior": 6369.0,
+            "debito": 56273.9,
+            "credito": 0.0,
+            "saldo_atual": 62642.9,
+            "nivel": 4,
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "codigo": "2001",
+        "classificacao": "2.1",
+        "descricao": "CIRCULANTE",
+        "saldo_anterior": 19288158.58,
+        "debito": 255315980.69,
+        "credito": 259213424.83,
+        "saldo_atual": 23185602.72,
+        "nivel": 1,
+        "filhos": [
+          {
+            "codigo": "2003",
+            "classificacao": "2.1.01.01",
+            "descricao": "FINANCIAMENTOS A CURTO PRAZO - SFN",
+            "saldo_anterior": 25788.32,
+            "debito": 25788.32,
+            "credito": 0.0,
+            "saldo_atual": 0.0,
+            "nivel": 3,
+            "filhos": []
+          },
+          {
+            "codigo": "2030",
+            "classificacao": "2.1.02",
+            "descricao": "FORNECEDORES",
+            "saldo_anterior": 264087.83,
+            "debito": 5932149.31,
+            "credito": 5902726.98,
+            "saldo_atual": 234665.5,
+            "nivel": 2,
+            "filhos": [
+              {
+                "codigo": "63476",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "9TEK ELETRONICA E ILUMINACAO",
+                "saldo_anterior": 0.0,
+                "debito": 1332.8,
+                "credito": 1332.8,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63254",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ADVANCE ALIMENTOS E CONVENIENCIA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 1000.0,
+                "credito": 1000.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63129",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ALELO INSTITUICAO DE PAGAMENTO SA",
+                "saldo_anterior": 0.0,
+                "debito": 36532.8,
+                "credito": 36532.8,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63128",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ALIANCA SERVICOS POSTAIS EIRELLI",
+                "saldo_anterior": 0.0,
+                "debito": 3210.75,
+                "credito": 3210.75,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63253",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ATLANTICA HOTELS INTERNATIONAL BRASIL LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 628.32,
+                "credito": 628.32,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63163",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "AUTO POSTO CARRIJO LTDA",
+                "saldo_anterior": 284.73,
+                "debito": 4158.29,
+                "credito": 3873.56,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63164",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "AUTO POSTO KR 03 LTDA",
+                "saldo_anterior": 548.68,
+                "debito": 2671.31,
+                "credito": 2122.63,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63165",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "AUTO POSTO TOMAZ II A.R. DA SILVA & CIA LTDA",
+                "saldo_anterior": 730.11,
+                "debito": 1858.81,
+                "credito": 1128.7,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63481",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "BRAMOTOS PECAS E SERVICOS PARA MOTOS LTD",
+                "saldo_anterior": 0.0,
+                "debito": 885.0,
+                "credito": 914.0,
+                "saldo_atual": 29.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63255",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "CARLOS ALBERTO ALVES DE SOUSA",
+                "saldo_anterior": 0.0,
+                "debito": 870.0,
+                "credito": 870.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63482",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "CLOVIS MARTINS DE MEDEIROS",
+                "saldo_anterior": 0.0,
+                "debito": 2000.0,
+                "credito": 2000.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63169",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "COMERCIAL DE DERIV. DE PET. SAO CARLOS LTDA.",
+                "saldo_anterior": 3125.22,
+                "debito": 21007.81,
+                "credito": 19220.09,
+                "saldo_atual": 1337.5,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63257",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "COMERCIO DE COMBUSTIVEIS GUIMARAES LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 2003.04,
+                "credito": 2003.04,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63172",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "COMPSYSTEM INFORMATICA E TECNOLOGIA",
+                "saldo_anterior": 0.0,
+                "debito": 27333.0,
+                "credito": 27333.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63483",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "DANUBIA FERREIRA PANTALEAO AMARAL",
+                "saldo_anterior": 0.0,
+                "debito": 1805.0,
+                "credito": 1805.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63484",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "DIOGO ALVES DA SILVA",
+                "saldo_anterior": 0.0,
+                "debito": 300.0,
+                "credito": 300.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63259",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "DOIS AMIGOS COMERCIO VAREJISTA DE ALIMENTOS LTDA-ME",
+                "saldo_anterior": 0.0,
+                "debito": 1610.49,
+                "credito": 1610.49,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63260",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "EDISON CHANDER JUNIOR",
+                "saldo_anterior": 0.0,
+                "debito": 531.95,
+                "credito": 531.95,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63261",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "EDU MOTOS",
+                "saldo_anterior": 0.0,
+                "debito": 1565.0,
+                "credito": 1565.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63488",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "EUGENIO DE ARAUJO LOPES",
+                "saldo_anterior": 0.0,
+                "debito": 500.0,
+                "credito": 500.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63263",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "FABIO VILELA DE FARIA",
+                "saldo_anterior": 0.0,
+                "debito": 1670.0,
+                "credito": 1670.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63127",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "FF LOCADORA DE VEICULOS SA",
+                "saldo_anterior": 0.0,
+                "debito": 886667.64,
+                "credito": 932357.14,
+                "saldo_atual": 45689.5,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63575",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "FURACAO NEGOCIOS E PRODUTOS PROFISSIONAIS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 259.0,
+                "credito": 259.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63146",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "GIRO TRANSPORTES E LOGISTICA-ME",
+                "saldo_anterior": 0.0,
+                "debito": 369327.94,
+                "credito": 369327.94,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63175",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "GRAFICA VMS & CCM LTDA",
+                "saldo_anterior": 160.0,
+                "debito": 415.0,
+                "credito": 255.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63153",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "HELIO MANOEL OLIVEIRA FERREIRA",
+                "saldo_anterior": 0.0,
+                "debito": 23647.01,
+                "credito": 23647.01,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63286",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "HOTEL CANADA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 705.0,
+                "credito": 705.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63577",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "IDERALDO HENRIQUE DIAS GARIBALDE",
+                "saldo_anterior": 0.0,
+                "debito": 1812.0,
+                "credito": 1812.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63177",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "IGOR TAVARES DA SILVA",
+                "saldo_anterior": 0.0,
+                "debito": 350.0,
+                "credito": 350.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63130",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "IVANILDA MARQUES ALMEIDA",
+                "saldo_anterior": 0.0,
+                "debito": 1800.0,
+                "credito": 1800.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63179",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "JAIME HENRIQUE ALVES GOMES",
+                "saldo_anterior": 0.0,
+                "debito": 7560.0,
+                "credito": 7560.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63267",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "JAQUELINE CRISTINA CAMPOS DE CARVALHO EI",
+                "saldo_anterior": 0.0,
+                "debito": 155.85,
+                "credito": 155.85,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63180",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "JESSICA PEDRO DA SILVEIRA CARVALHO",
+                "saldo_anterior": 0.0,
+                "debito": 987.5,
+                "credito": 987.5,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63579",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "JOSE HUGO FERREIRA DA SILVA",
+                "saldo_anterior": 0.0,
+                "debito": 1100.0,
+                "credito": 1100.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63147",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "JUAREZ JOSE VALENCIO FILHO",
+                "saldo_anterior": 16639.56,
+                "debito": 90922.7,
+                "credito": 74283.14,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63494",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "L.L PAPELARIA LTDA - PAPYRUS",
+                "saldo_anterior": 0.0,
+                "debito": 1137.0,
+                "credito": 1137.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63149",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "LAFRAYA SERVICOS LOGISTICOS LTDA",
+                "saldo_anterior": 4010.57,
+                "debito": 76010.57,
+                "credito": 72000.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63215",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "LILIAN CANDIDA DA SILVA CARMO",
+                "saldo_anterior": 0.0,
+                "debito": 486.0,
+                "credito": 486.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63538",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "LOC CENTER - LOCACOES DIVERSIFICADAS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 1944.6,
+                "credito": 1944.6,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63250",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "LUCIMERY DA SILVA OH",
+                "saldo_anterior": 0.0,
+                "debito": 200.0,
+                "credito": 200.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63131",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MACEDO ADVOGADOS",
+                "saldo_anterior": 0.0,
+                "debito": 34158.0,
+                "credito": 41337.0,
+                "saldo_atual": 7179.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63132",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MARILDA DE MELO RUELA DOS SANTOS",
+                "saldo_anterior": 0.0,
+                "debito": 960.0,
+                "credito": 960.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63158",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MAXWELL DE OLIVEIRA SILVA",
+                "saldo_anterior": 1500.0,
+                "debito": 1500.0,
+                "credito": 0.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63270",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MENDES E REIS CIA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 60.0,
+                "credito": 60.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63189",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MR AUTO POSTO LTDA",
+                "saldo_anterior": 815.58,
+                "debito": 6668.22,
+                "credito": 5852.64,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63585",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MUHAMMAD KALLOUT ME",
+                "saldo_anterior": 0.0,
+                "debito": 390.0,
+                "credito": 390.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63191",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MUNDO DAS COISAS PAPELARIA E INFORMATICA",
+                "saldo_anterior": 329.2,
+                "debito": 2035.9,
+                "credito": 2355.9,
+                "saldo_atual": 649.2,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63272",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "O SANTO DESCONFIA GASTRONOMIA E BAR LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 610.72,
+                "credito": 610.72,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63496",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "OFFICE PAPELARIA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 179.5,
+                "credito": 179.5,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63192",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ORDEZON ROSA NUNES JUNIOR",
+                "saldo_anterior": 0.0,
+                "debito": 1550.0,
+                "credito": 1750.0,
+                "saldo_atual": 200.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63193",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "POSTO R7 LIMITADA",
+                "saldo_anterior": 0.0,
+                "debito": 11652.0,
+                "credito": 11652.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63195",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "POUSADA REAL LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 6000.0,
+                "credito": 6000.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63588",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "PRINT COMUNICACAO VISUAL DE MINEIROS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 1080.0,
+                "credito": 1080.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63497",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "RANIELA FERREIRA DE JESUS",
+                "saldo_anterior": 0.0,
+                "debito": 820.0,
+                "credito": 820.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63276",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "RECOOLOR DISTRIBUICAO LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 429.9,
+                "credito": 429.9,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63199",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "RENATO SIQUEIRA AGUIAR E CIA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 504.0,
+                "credito": 504.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63278",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "REYCHAEL ROCHA DA SILVA",
+                "saldo_anterior": 0.0,
+                "debito": 277.0,
+                "credito": 277.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63279",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "RONEIMAR GOMES LEONEL",
+                "saldo_anterior": 0.0,
+                "debito": 900.0,
+                "credito": 900.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63539",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ROZILDA GUIMARAES VIEIRA",
+                "saldo_anterior": 0.0,
+                "debito": 15406.39,
+                "credito": 15406.39,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63201",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "SANTA MARIA DERIVADOS DE PETROLEO LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 1995.35,
+                "credito": 1995.35,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63148",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "SERGIO DIVINO RODRIGUES",
+                "saldo_anterior": 2180.48,
+                "debito": 32670.61,
+                "credito": 30490.13,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63281",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "SOUZA ARAUJO & MELO EIRELLI-ME",
+                "saldo_anterior": 0.0,
+                "debito": 526.0,
+                "credito": 526.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63203",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "SUPERMERCADO ZAMOT LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 572.18,
+                "credito": 572.18,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63282",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "TECNO COM INFORMATICA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 2530.3,
+                "credito": 2530.3,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63293",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "WAM COMERCIO E SERVICOES",
+                "saldo_anterior": 0.0,
+                "debito": 970.0,
+                "credito": 970.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63283",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "WESLEI PIRES DOS SANTOS",
+                "saldo_anterior": 0.0,
+                "debito": 2670.0,
+                "credito": 2670.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63205",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "WILLIAN BUENO DE SOUZA - ME",
+                "saldo_anterior": 0.0,
+                "debito": 1082.71,
+                "credito": 1082.71,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63206",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ZANINI & RODRIGUES LTDA",
+                "saldo_anterior": 7605.0,
+                "debito": 44242.45,
+                "credito": 43614.8,
+                "saldo_atual": 6977.35,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63222",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "HW PECAS SERVICOS PARA MOTOS LTD ME",
+                "saldo_anterior": 83.0,
+                "debito": 696.0,
+                "credito": 613.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63427",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ABOBRAO LOCADORA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 2563.95,
+                "credito": 2563.95,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63061",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ADEGA SALGADOS LTDA",
+                "saldo_anterior": 200.0,
+                "debito": 462.0,
+                "credito": 262.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63321",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ALEX APARECIDO DA SILVA SOUSA 0576338613",
+                "saldo_anterior": 0.0,
+                "debito": 6050.0,
+                "credito": 6050.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63079",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ANDRADE LAVA JATO",
+                "saldo_anterior": 0.0,
+                "debito": 400.0,
+                "credito": 400.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63358",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ANTONIO TADEU MUTERLE LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 45.0,
+                "credito": 45.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63315",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ARCA MAGAZINE LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 420.0,
+                "credito": 420.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63080",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ARK TELECOM LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 3359.68,
+                "credito": 3359.68,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63703",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ART NOBRE AMBIENTES PLANEJADOS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 6000.0,
+                "credito": 6000.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63693",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ASSOCIACAO BRASILEIRA DE INDUSTRIA E FORNECEDORES",
+                "saldo_anterior": 0.0,
+                "debito": 2303.37,
+                "credito": 3071.16,
+                "saldo_atual": 767.79,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63324",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "AUTO POSTO JACARE",
+                "saldo_anterior": 0.0,
+                "debito": 1539.43,
+                "credito": 2142.46,
+                "saldo_atual": 603.03,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63708",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "AYUMI COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 193.96,
+                "credito": 193.96,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63718",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "BETTONI TRANSPORTES LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 8260.0,
+                "credito": 8260.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63560",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "BOM AR SERVICE LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 3645.0,
+                "credito": 3645.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63326",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "C E OLIVEIRA PAPELARIA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 654.53,
+                "credito": 654.53,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63238",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "CARLOS ROBERTO SENGER",
+                "saldo_anterior": 0.0,
+                "debito": 157.0,
+                "credito": 157.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63328",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "CATRAL REFRIGERACAO E ELETRODOMESTICOS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 11268.0,
+                "credito": 13390.0,
+                "saldo_atual": 2122.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63116",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "CENTRO COMERCIAL CONQUISTA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 115.12,
+                "credito": 115.12,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63082",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "CG AUTO POSTO EIRELI",
+                "saldo_anterior": 778.7,
+                "debito": 6347.04,
+                "credito": 6673.54,
+                "saldo_atual": 1105.2,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63294",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "CHURRASCARIA & LANCHONETE CANAL LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 4516.12,
+                "credito": 4516.12,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63719",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "CIRCUITO MOTO PECAS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 309.69,
+                "credito": 309.69,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63084",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "COMBOIO SOLUCAO LOGISTICA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 8598.35,
+                "credito": 8598.35,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63302",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "COMERCIAL FORMOSA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 97.69,
+                "credito": 97.69,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63123",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "CONCEBRA - CONCESSIONARIA DAS RODOVIAS CENTRAIS DO BRASIL S.A.",
+                "saldo_anterior": 0.0,
+                "debito": 93.2,
+                "credito": 93.2,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63119",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "COSTA MULTICANAL S/A",
+                "saldo_anterior": 79.0,
+                "debito": 1382.18,
+                "credito": 1303.18,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63063",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "DANILO DA SILVA FIDELIS EIRELI",
+                "saldo_anterior": 2249.45,
+                "debito": 19414.94,
+                "credito": 25993.29,
+                "saldo_atual": 8827.8,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63224",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "DECIO CONVENIENCIA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 172.82,
+                "credito": 172.82,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63329",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "DIMENSAO EDITORA E DISTRIBUIDORA EIRELI",
+                "saldo_anterior": 0.0,
+                "debito": 3390.3,
+                "credito": 3390.3,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63247",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "DW SERVICE LTDA",
+                "saldo_anterior": 700.0,
+                "debito": 4200.0,
+                "credito": 3500.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63086",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "EDIVANIO ALVES MENDES",
+                "saldo_anterior": 0.0,
+                "debito": 9794.0,
+                "credito": 10553.0,
+                "saldo_atual": 759.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63697",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ELI AMERICO DE PAULA - TERRAPLANAGEM",
+                "saldo_anterior": 0.0,
+                "debito": 840.0,
+                "credito": 840.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63640",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "EXPRESSO NOSSA SENHORA DA PENHA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 268.91,
+                "credito": 268.91,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63078",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "FABIO JUNIOR SILVA",
+                "saldo_anterior": 0.0,
+                "debito": 70.0,
+                "credito": 70.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63090",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "FUJIOKA ELETRO IMAGEM SA",
+                "saldo_anterior": 0.0,
+                "debito": 92221.61,
+                "credito": 92221.61,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63717",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "GEOVANE LOPES SANCHES MOVEIS E ELETRODOMESTICOS",
+                "saldo_anterior": 0.0,
+                "debito": 2743.0,
+                "credito": 2743.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63511",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "GILMIER ZUCOLOTO ME",
+                "saldo_anterior": 0.0,
+                "debito": 248362.23,
+                "credito": 248362.23,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63617",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "GILVAN SILVA NASCIMENTO",
+                "saldo_anterior": 0.0,
+                "debito": 200.0,
+                "credito": 200.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63242",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "GR TELECOMUNICACOES LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 495.0,
+                "credito": 495.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63467",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "GRAN EXECUTIVE HOTEL",
+                "saldo_anterior": 0.0,
+                "debito": 707.2,
+                "credito": 707.2,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63309",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "HICOFER MERCADO E FERRAMENTAS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 95.59,
+                "credito": 95.59,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63563",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "HOTEL ROMANVILLE LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 185.11,
+                "credito": 185.11,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63423",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "IGACENTER SUPERMERCADOS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 41.64,
+                "credito": 41.64,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63320",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "JANAINE SANTIELE CRUVINEL SILVA",
+                "saldo_anterior": 0.0,
+                "debito": 1000.0,
+                "credito": 1000.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63501",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "JOAO HENRIQUE ROSA CABRAL",
+                "saldo_anterior": 0.0,
+                "debito": 139.0,
+                "credito": 139.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63726",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "JOAO PAULO GONCALVES DOS SANTOS",
+                "saldo_anterior": 0.0,
+                "debito": 510.0,
+                "credito": 510.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63335",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "JP COMERCIO E DISTRIB. DE VIDROS E ALUMINIOS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 500.0,
+                "credito": 500.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63525",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "KABANAS COMERCIAL DE ALIMENTACAO LTDA EM RECUPERACAO JUDICIAL",
+                "saldo_anterior": 0.0,
+                "debito": 670.54,
+                "credito": 670.54,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63301",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "LANCHONETE E RESTAURANTE PORTAL DO LAGO LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 29.0,
+                "credito": 29.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63727",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "LF CAR AUTO PECAS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 0.0,
+                "credito": 195.0,
+                "saldo_atual": 195.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63694",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "LOJAS BANDEIRANTES LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 12.99,
+                "credito": 12.99,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63706",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "M.S.NET INFORMATICA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 29.0,
+                "credito": 29.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63729",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MADEIREIRA SÃO MATHEUS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 1220.0,
+                "credito": 1220.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63470",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MAGAZINE LUIZA S/A",
+                "saldo_anterior": 0.0,
+                "debito": 3441.0,
+                "credito": 3441.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63336",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MANGUEIRAS SERVICOS EIRELI",
+                "saldo_anterior": 0.0,
+                "debito": 335.0,
+                "credito": 335.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63097",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MARCIO DE SOUZA SILVA EIRELI",
+                "saldo_anterior": 0.0,
+                "debito": 15141.72,
+                "credito": 16310.29,
+                "saldo_atual": 1168.57,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63338",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MARINALDO COSTA DA SILVA",
+                "saldo_anterior": 0.0,
+                "debito": 818.0,
+                "credito": 818.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63720",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MASTER AUTO CENTER LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 0.0,
+                "credito": 1650.0,
+                "saldo_atual": 1650.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63565",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MICHEL LUCAS DE ALMEIDA MENDONCA",
+                "saldo_anterior": 0.0,
+                "debito": 216.0,
+                "credito": 216.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63098",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MM MACHADO COMBUSTIVEL LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 3094.31,
+                "credito": 3546.02,
+                "saldo_atual": 451.71,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63340",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "MOREIRA ALVARES LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 1107.5,
+                "credito": 1107.5,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63102",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "NILSON JOSE DA SILVA",
+                "saldo_anterior": 0.0,
+                "debito": 6260.0,
+                "credito": 6260.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63471",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "OITIS HOTEL LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 499.29,
+                "credito": 499.29,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63103",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "PAEZE ALIMENTOS EIRELI",
+                "saldo_anterior": 0.0,
+                "debito": 1189.99,
+                "credito": 1189.99,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63317",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "PAPELARIA VISAO LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 298.6,
+                "credito": 298.6,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63704",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "PIT STOP RENOVADORA DE PNEUS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 60.0,
+                "credito": 60.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63615",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "POLLO MOVEIS PARA ESCRITORIO LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 1912.9,
+                "credito": 1912.9,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63071",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "POSTO CAXUXA MGM LTDA",
+                "saldo_anterior": 629.35,
+                "debito": 6827.06,
+                "credito": 6378.01,
+                "saldo_atual": 180.3,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63076",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "POSTO IPE LTDA",
+                "saldo_anterior": 765.98,
+                "debito": 9850.93,
+                "credito": 9084.95,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63346",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "PRADO & REZENDE LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 2109.95,
+                "credito": 2109.95,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63348",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "R & R CORTINAS E DECORACOES LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 4130.0,
+                "credito": 4130.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63107",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "R3 SUPRIMENTOS CORPORATIVOS LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 1084.5,
+                "credito": 1084.5,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63218",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "REDE CERRADO TELECOM ME",
+                "saldo_anterior": 0.0,
+                "debito": 659.4,
+                "credito": 659.4,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63521",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "RHAM AUTO POSTO ABADIANIA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 642.52,
+                "credito": 642.52,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63735",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "RIO VERDE FERRAMENTAS",
+                "saldo_anterior": 0.0,
+                "debito": 1724.75,
+                "credito": 1724.75,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63631",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ROBERTO ALVES DE CASTRO",
+                "saldo_anterior": 0.0,
+                "debito": 220.0,
+                "credito": 220.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63632",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "RODRIGO DOMINGUES GUIMARAES",
+                "saldo_anterior": 0.0,
+                "debito": 200.0,
+                "credito": 200.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63516",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ROGERIO CUNHA DOS SANTOS",
+                "saldo_anterior": 0.0,
+                "debito": 176030.0,
+                "credito": 176030.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63304",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "ROSARIO RESTAURANTE E LANCHONETE LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 56.53,
+                "credito": 56.53,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63068",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "RUMO BRASIL ASSESSORIA LTDA",
+                "saldo_anterior": 24628.51,
+                "debito": 329197.76,
+                "credito": 438621.48,
+                "saldo_atual": 134052.23,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63520",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "SANTO PANE ALIMENTOS TODA HORA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 60.57,
+                "credito": 60.57,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63360",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "SEMPRELAR UTILIDADES LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 213.89,
+                "credito": 213.89,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63633",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "SKYTECH IMPRESSORAS E INFORMATICA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 10107.0,
+                "credito": 10107.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63110",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "SOREM ULYSSES DO AMARAL",
+                "saldo_anterior": 0.0,
+                "debito": 4683.0,
+                "credito": 4683.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63352",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "SUPERMERCADO JABBAR & JABBAR LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 341.32,
+                "credito": 341.32,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63503",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "SYLVIO CESAR SOARES",
+                "saldo_anterior": 0.0,
+                "debito": 150.0,
+                "credito": 150.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63473",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "T E C COMERCIO E DISTRIBUIDORA DE GAS E AGUA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 90.0,
+                "credito": 90.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63462",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "TCHARLYS DOS SANTOS OLIVEIRA",
+                "saldo_anterior": 0.0,
+                "debito": 1160.0,
+                "credito": 1160.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63353",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "TIAGO CESAR BASILIO",
+                "saldo_anterior": 0.0,
+                "debito": 1350.0,
+                "credito": 1350.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63311",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "TRANSPORTES TRANSVIDAL S.A",
+                "saldo_anterior": 0.0,
+                "debito": 1835.16,
+                "credito": 1835.16,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63221",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "TURBONET SERVICOS DE COMUNICACAO LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 1000.0,
+                "credito": 1000.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63646",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "UNIMED RIO VERDE COOPERATIVA DE TRABALHO MEDICO",
+                "saldo_anterior": 0.0,
+                "debito": 3460.47,
+                "credito": 3460.47,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63616",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "VAGNER DE VITO & CIA LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 270.0,
+                "credito": 270.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63598",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "VIDAL LOGISTICA E TRANSPORTES S.A",
+                "saldo_anterior": 0.0,
+                "debito": 9043.34,
+                "credito": 9043.34,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63114",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "VINICIUS COIMBRA REZENDE",
+                "saldo_anterior": 0.0,
+                "debito": 1390.0,
+                "credito": 1390.0,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63509",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "WASHINGTON FURQUIM DE SOUZA",
+                "saldo_anterior": 1138.32,
+                "debito": 66138.31,
+                "credito": 64999.99,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63115",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "WTA MEDICINA DO TRABALHO LTDA",
+                "saldo_anterior": 0.0,
+                "debito": 571.2,
+                "credito": 571.2,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "63143",
+                "classificacao": "2.1.02.010.001",
+                "descricao": "YURE MIGUEL SANTANA - ME",
+                "saldo_anterior": 15547.52,
+                "debito": 32321.71,
+                "credito": 16774.19,
+                "saldo_atual": 0.0,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "codigo": "2050",
+            "classificacao": "2.1.03",
+            "descricao": "OBRIGAÇÕES TRABALHISTAS",
+            "saldo_anterior": 1275086.47,
+            "debito": 7782142.46,
+            "credito": 8621532.13,
+            "saldo_atual": 2114476.14,
+            "nivel": 2,
+            "filhos": [
+              {
+                "codigo": "2052",
+                "classificacao": "2.1.03.010.001",
+                "descricao": "SALÁRIOS A PAGAR",
+                "saldo_anterior": 105029.8,
+                "debito": 2291552.55,
+                "credito": 2704944.92,
+                "saldo_atual": 518422.17,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "2056",
+                "classificacao": "2.1.03.010.005",
+                "descricao": "EMPRESTIMOS DESCONTADOS DE EMPREGADOS A PAGAR",
+                "saldo_anterior": 0.0,
+                "debito": 68123.94,
+                "credito": 104639.5,
+                "saldo_atual": 36515.56,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "2081",
+                "classificacao": "2.1.03.020.001",
+                "descricao": "PROVISÃO DE FÉRIAS",
+                "saldo_anterior": 10475.85,
+                "debito": 121928.2,
+                "credito": 625562.78,
+                "saldo_atual": 514110.43,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "2083",
+                "classificacao": "2.1.03.020.003",
+                "descricao": "PROVISÃO DE FGTS S/FÉRIAS",
+                "saldo_anterior": 837.99,
+                "debito": 9450.66,
+                "credito": 49741.19,
+                "saldo_atual": 41128.52,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "2085",
+                "classificacao": "2.1.03.020.005",
+                "descricao": "PROVISÃO DE INSS S/13º SALÁRIO",
+                "saldo_anterior": 0.0,
+                "debito": 10496.55,
+                "credito": 82630.86,
+                "saldo_atual": 72134.31,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "2140",
+                "classificacao": "2.1.03.05",
+                "descricao": "ENCARGOS",
+                "saldo_anterior": 1155725.78,
+                "debito": 5042156.9,
+                "credito": 4378945.36,
+                "saldo_atual": 492514.24,
+                "nivel": 3,
+                "filhos": [
+                  {
+                    "codigo": "2143",
+                    "classificacao": "2.1.03.050.003",
+                    "descricao": "INSS A RECOLHER",
+                    "saldo_anterior": 40986.76,
+                    "debito": 450871.46,
+                    "credito": 495360.55,
+                    "saldo_atual": 85475.85,
+                    "nivel": 4,
+                    "filhos": []
+                  },
+                  {
+                    "codigo": "2147",
+                    "classificacao": "2.1.03.050.003",
+                    "descricao": "IRRF A RECOLHER - CONTRATO DE FRETE",
+                    "saldo_anterior": 3580.75,
+                    "debito": 43381.88,
+                    "credito": 41885.79,
+                    "saldo_atual": 2084.66,
+                    "nivel": 4,
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "codigo": "2161",
+                "classificacao": "2.1.04.01",
+                "descricao": "IMPOSTOS RETIDOS A RECOLHER",
+                "saldo_anterior": 932.01,
+                "debito": 12664.2,
+                "credito": 16336.93,
+                "saldo_atual": 4604.74,
+                "nivel": 3,
+                "filhos": [
+                  {
+                    "codigo": "2164",
+                    "classificacao": "2.1.04.010.003",
+                    "descricao": "IRRF (1708) A RECOLHER",
+                    "saldo_anterior": 15.08,
+                    "debito": 20.6,
+                    "credito": 5.52,
+                    "saldo_atual": 0.0,
+                    "nivel": 4,
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "codigo": "2200",
+                "classificacao": "2.1.04.02",
+                "descricao": "IMPOSTOS E CONTRIBUIÇÃO S/ O LUCRO",
+                "saldo_anterior": 1117228.02,
+                "debito": 0.0,
+                "credito": 0.0,
+                "saldo_atual": 1117228.02,
+                "nivel": 3,
+                "filhos": [
+                  {
+                    "codigo": "2202",
+                    "classificacao": "2.1.04.020.002",
+                    "descricao": "CSLL A RECOLHER",
+                    "saldo_anterior": 298913.3,
+                    "debito": 0.0,
+                    "credito": 0.0,
+                    "saldo_atual": 298913.3,
+                    "nivel": 4,
+                    "filhos": []
+                  },
+                  {
+                    "codigo": "2223",
+                    "classificacao": "2.1.04.030.003",
+                    "descricao": "PIS A RECOLHER",
+                    "saldo_anterior": 0.0,
+                    "debito": 1343165.46,
+                    "credito": 1343165.46,
+                    "saldo_atual": 0.0,
+                    "nivel": 4,
+                    "filhos": []
+                  },
+                  {
+                    "codigo": "63858",
+                    "classificacao": "2.1.04.030.004",
+                    "descricao": "DIFAL A RECOLHER",
+                    "saldo_anterior": 0.0,
+                    "debito": 3096.33,
+                    "credito": 3415.97,
+                    "saldo_atual": 319.64,
+                    "nivel": 4,
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "codigo": "2250",
+            "classificacao": "2.1.06",
+            "descricao": "PARCELAMENTOS CURTO PRAZO",
+            "saldo_anterior": 0.0,
+            "debito": 90511.0,
+            "credito": 199124.2,
+            "saldo_atual": 108613.2,
+            "nivel": 2,
+            "filhos": [
+              {
+                "codigo": "2256",
+                "classificacao": "2.1.06.010.005",
+                "descricao": "INSS PARCELAMENTO 02110001200291025692554 CP",
+                "saldo_anterior": 0.0,
+                "debito": 90511.0,
+                "credito": 199124.2,
+                "saldo_atual": 108613.2,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "2350",
+                "classificacao": "2.1.07.02",
+                "descricao": "OUTRAS CONTAS A PAGAR",
+                "saldo_anterior": 1302727.49,
+                "debito": 172545865.2,
+                "credito": 174321378.49,
+                "saldo_atual": 3078240.78,
+                "nivel": 3,
+                "filhos": []
+              },
+              {
+                "codigo": "2400",
+                "classificacao": "2.1.07.03",
+                "descricao": "ADIANTAMENTO DE CLIENTES",
+                "saldo_anterior": 15302308.44,
+                "debito": 61393890.86,
+                "credito": 62557169.13,
+                "saldo_atual": 16465586.71,
+                "nivel": 3,
+                "filhos": [
+                  {
+                    "codigo": "63527",
+                    "classificacao": "2.1.07.030.001",
+                    "descricao": "ADIANTAMENTO DE GILDAZIO SOARES GOMES",
+                    "saldo_anterior": 0.0,
+                    "debito": 566.25,
+                    "credito": 566.25,
+                    "saldo_atual": 0.0,
+                    "nivel": 4,
+                    "filhos": []
+                  },
+                  {
+                    "codigo": "63249",
+                    "classificacao": "2.1.07.030.001",
+                    "descricao": "ADIANTAMENTO DE TRANSPORTES TRANSVIDAL S.A",
+                    "saldo_anterior": 129467.06,
+                    "debito": 468842.19,
+                    "credito": 482744.48,
+                    "saldo_atual": 143369.35,
+                    "nivel": 4,
+                    "filhos": []
+                  },
+                  {
+                    "codigo": "2401",
+                    "classificacao": "2.1.07.030.001",
+                    "descricao": "ADIANTAMENTO DE VIDAL LOGISTICA E TRANSPORTES S A",
+                    "saldo_anterior": 14923258.1,
+                    "debito": 60639820.14,
+                    "credito": 62038779.4,
+                    "saldo_atual": 16322217.36,
+                    "nivel": 4,
+                    "filhos": []
+                  },
+                  {
+                    "codigo": "63248",
+                    "classificacao": "2.1.07.030.001",
+                    "descricao": "ADIANTAMENTO DE ZUCOLOTO TRANSPORTES",
+                    "saldo_anterior": 7600.98,
+                    "debito": 7600.98,
+                    "credito": 0.0,
+                    "saldo_atual": 0.0,
+                    "nivel": 4,
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "codigo": "6592",
+                "classificacao": "2.1.08.01",
+                "descricao": "RECEITAS A APROPRIAR",
+                "saldo_anterior": 0.0,
+                "debito": 0.0,
+                "credito": 59793.0,
+                "saldo_atual": 59793.0,
+                "nivel": 3,
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codigo": "2500",
+        "classificacao": "2.2",
+        "descricao": "PASSIVO NÃO CIRCULANTE",
+        "saldo_anterior": 0.0,
+        "debito": 133648.23,
+        "credito": 1478081.82,
+        "saldo_atual": 1344433.59,
+        "nivel": 1,
+        "filhos": [
+          {
+            "codigo": "2570",
+            "classificacao": "2.2.01.04",
+            "descricao": "EMPRÉSTIMOS DE TERCEIROS",
+            "saldo_anterior": 0.0,
+            "debito": 133648.23,
+            "credito": 591073.67,
+            "saldo_atual": 457425.44,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "63866",
+                "classificacao": "2.2.01.040.001",
+                "descricao": "ZUCO MINAS (ANTECIPAÇÃO)",
+                "saldo_anterior": 0.0,
+                "debito": 0.0,
+                "credito": 91000.0,
+                "saldo_atual": 91000.0,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "codigo": "2590",
+            "classificacao": "2.2.01.05",
+            "descricao": "PARCELAMENTO DE TRIBUTOS",
+            "saldo_anterior": 0.0,
+            "debito": 0.0,
+            "credito": 887008.15,
+            "saldo_atual": 887008.15,
+            "nivel": 3,
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "codigo": "2700",
+        "classificacao": "2.4",
+        "descricao": "PATRIMÔNIO LÍQUIDO",
+        "saldo_anterior": 1921355.88,
+        "debito": 0.0,
+        "credito": 0.0,
+        "saldo_atual": 1921355.88,
+        "nivel": 1,
+        "filhos": [
+          {
+            "codigo": "2702",
+            "classificacao": "2.4.01.01",
+            "descricao": "CAPITAL SOCIAL REALIZADO",
+            "saldo_anterior": 200000.0,
+            "debito": 0.0,
+            "credito": 0.0,
+            "saldo_atual": 200000.0,
+            "nivel": 3,
+            "filhos": []
+          },
+          {
+            "codigo": "2730",
+            "classificacao": "2.4.02",
+            "descricao": "RESERVAS",
+            "saldo_anterior": 1921197.02,
+            "debito": 0.0,
+            "credito": 0.0,
+            "saldo_atual": 1921197.02,
+            "nivel": 2,
+            "filhos": [
+              {
+                "codigo": "2821",
+                "classificacao": "2.4.02.050.001",
+                "descricao": "LUCRO DO EXERCÍCIO",
+                "saldo_anterior": 1921355.88,
+                "debito": 0.0,
+                "credito": 0.0,
+                "saldo_atual": 1921355.88,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codigo": "50001",
+        "classificacao": "3.1",
+        "descricao": "CUSTOS DOS SERVIÇOS PRESTADOS",
+        "saldo_anterior": 0.0,
+        "debito": 182551828.62,
+        "credito": 0.0,
+        "saldo_atual": 182551828.62,
+        "nivel": 1,
+        "filhos": [
+          {
+            "codigo": "50003",
+            "classificacao": "3.1.01.01",
+            "descricao": "MÃO-DE-OBRA DIRETA",
+            "saldo_anterior": 0.0,
+            "debito": 813.0,
+            "credito": 0.0,
+            "saldo_atual": 813.0,
+            "nivel": 3,
+            "filhos": []
+          },
+          {
+            "codigo": "50100",
+            "classificacao": "3.1.01.02",
+            "descricao": "MÃO-DE-OBRA INDIRETA",
+            "saldo_anterior": 0.0,
+            "debito": 180890556.24,
+            "credito": 0.0,
+            "saldo_atual": 180890556.24,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "50102",
+                "classificacao": "3.1.01.020.001",
+                "descricao": "COMISSÕES E AGENCIAMENTO",
+                "saldo_anterior": 0.0,
+                "debito": 580175.17,
+                "credito": 0.0,
+                "saldo_atual": 580175.17,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "50105",
+                "classificacao": "3.1.01.020.001",
+                "descricao": "LIMPEZA E CONSERVAÇÃO",
+                "saldo_anterior": 0.0,
+                "debito": 21130.0,
+                "credito": 0.0,
+                "saldo_atual": 21130.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "50107",
+                "classificacao": "3.1.01.020.001",
+                "descricao": "MANUTENÇÃO DE VEÍCULOS PESADOS",
+                "saldo_anterior": 0.0,
+                "debito": 206025.44,
+                "credito": 0.0,
+                "saldo_atual": 206025.44,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "50117",
+                "classificacao": "3.1.01.020.001",
+                "descricao": "SUBCONTRATAÇÕES PESSOA FÍSICA",
+                "saldo_anterior": 0.0,
+                "debito": 57303893.95,
+                "credito": 0.0,
+                "saldo_atual": 57303893.95,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "50119",
+                "classificacao": "3.1.01.020.001",
+                "descricao": "SUBCONTRATAÇÕES PESSOA JURÍDICA - OPTANTE SIMPLES",
+                "saldo_anterior": 0.0,
+                "debito": 63019425.1,
+                "credito": 0.0,
+                "saldo_atual": 63019425.1,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "50202",
+                "classificacao": "3.1.01.030.001",
+                "descricao": "COMBUSTÍVEIS - VEÍCULOS LEVES",
+                "saldo_anterior": 0.0,
+                "debito": 19068.23,
+                "credito": 0.0,
+                "saldo_atual": 19068.23,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "50209",
+                "classificacao": "3.1.01.030.001",
+                "descricao": "COMBUSTIVEL - DIESEL AGREGADO BASE",
+                "saldo_anterior": 0.0,
+                "debito": 911.2,
+                "credito": 0.0,
+                "saldo_atual": 911.2,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "50206",
+                "classificacao": "3.1.01.030.001",
+                "descricao": "PEÇAS E ACESSÓRIOS",
+                "saldo_anterior": 0.0,
+                "debito": 2250.0,
+                "credito": 0.0,
+                "saldo_atual": 2250.0,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "codigo": "50300",
+            "classificacao": "3.1.01.04",
+            "descricao": "DEMAIS CUSTOS DO TRANSPORTE",
+            "saldo_anterior": 0.0,
+            "debito": 1497300.03,
+            "credito": 0.0,
+            "saldo_atual": 1497300.03,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "50312",
+                "classificacao": "3.1.01.040.001",
+                "descricao": "DESPESA QUEBRA DE CARGA",
+                "saldo_anterior": 0.0,
+                "debito": 627998.43,
+                "credito": 0.0,
+                "saldo_atual": 627998.43,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "50316",
+                "classificacao": "3.1.01.040.001",
+                "descricao": "SEGURO DE VEÍCULOS LEVES",
+                "saldo_anterior": 0.0,
+                "debito": 7700.0,
+                "credito": 0.0,
+                "saldo_atual": 7700.0,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codigo": "52001",
+        "classificacao": "3.3",
+        "descricao": "DESPESAS OPERACIONAIS",
+        "saldo_anterior": 0.0,
+        "debito": 10097649.65,
+        "credito": 253659.37,
+        "saldo_atual": 9843990.28,
+        "nivel": 1,
+        "filhos": [
+          {
+            "codigo": "52003",
+            "classificacao": "3.3.01.01",
+            "descricao": "DESPESAS COM PESSOAL",
+            "saldo_anterior": 0.0,
+            "debito": 5175295.48,
+            "credito": 253659.37,
+            "saldo_atual": 4921636.11,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "52005",
+                "classificacao": "3.3.01.010.01",
+                "descricao": "ALIMENTAÇÃO",
+                "saldo_anterior": 0.0,
+                "debito": 121605.22,
+                "credito": 200.0,
+                "saldo_atual": 121405.22,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52013",
+                "classificacao": "3.3.01.010.01",
+                "descricao": "FÉRIAS",
+                "saldo_anterior": 0.0,
+                "debito": 642314.19,
+                "credito": 121928.2,
+                "saldo_atual": 520385.99,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52015",
+                "classificacao": "3.3.01.010.01",
+                "descricao": "GRATIFICAÇÕES E PREMIAÇÕES",
+                "saldo_anterior": 0.0,
+                "debito": 1990262.64,
+                "credito": 0.0,
+                "saldo_atual": 1990262.64,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52018",
+                "classificacao": "3.3.01.010.01",
+                "descricao": "INSS",
+                "saldo_anterior": 0.0,
+                "debito": 641602.48,
+                "credito": 44519.41,
+                "saldo_atual": 597083.07,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52027",
+                "classificacao": "3.3.01.010.01",
+                "descricao": "RESCISÕES",
+                "saldo_anterior": 0.0,
+                "debito": 197077.7,
+                "credito": 19354.5,
+                "saldo_atual": 177723.2,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52501",
+                "classificacao": "3.3.01.020.01",
+                "descricao": "ALUGUÉIS DE IMÓVEIS - PESSOA FÍSICA",
+                "saldo_anterior": 0.0,
+                "debito": 401074.28,
+                "credito": 0.0,
+                "saldo_atual": 401074.28,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "codigo": "52550",
+            "classificacao": "3.3.01.03",
+            "descricao": "DESPESAS DE VIAGEM",
+            "saldo_anterior": 0.0,
+            "debito": 162914.4,
+            "credito": 0.0,
+            "saldo_atual": 162914.4,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "52552",
+                "classificacao": "3.3.01.030.01",
+                "descricao": "COMBUSTÍVEL",
+                "saldo_anterior": 0.0,
+                "debito": 4026.34,
+                "credito": 0.0,
+                "saldo_atual": 4026.34,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52556",
+                "classificacao": "3.3.01.030.01",
+                "descricao": "PASSAGENS AÉREAS E RODOVIÁRIAS",
+                "saldo_anterior": 0.0,
+                "debito": 12739.61,
+                "credito": 0.0,
+                "saldo_atual": 12739.61,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52558",
+                "classificacao": "3.3.01.030.02",
+                "descricao": "OUTRAS DESPESAS DE VIAGEM",
+                "saldo_anterior": 0.0,
+                "debito": 2746.4,
+                "credito": 0.0,
+                "saldo_atual": 2746.4,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52607",
+                "classificacao": "3.3.01.040.01",
+                "descricao": "OUTRAS DESPESAS COM PROPAGANDA E PUBLICIDADE",
+                "saldo_anterior": 0.0,
+                "debito": 11045.0,
+                "credito": 0.0,
+                "saldo_atual": 11045.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52651",
+                "classificacao": "3.3.01.050.01",
+                "descricao": "ÁGUA E ESGOTO",
+                "saldo_anterior": 0.0,
+                "debito": 779.5,
+                "credito": 0.0,
+                "saldo_atual": 779.5,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52656",
+                "classificacao": "3.3.01.050.01",
+                "descricao": "BENS DE PEQUENO VALOR",
+                "saldo_anterior": 0.0,
+                "debito": 12158.46,
+                "credito": 0.0,
+                "saldo_atual": 12158.46,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52660",
+                "classificacao": "3.3.01.050.01",
+                "descricao": "CONDOMÍNIOS",
+                "saldo_anterior": 0.0,
+                "debito": 1805.32,
+                "credito": 0.0,
+                "saldo_atual": 1805.32,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52673",
+                "classificacao": "3.3.01.050.01",
+                "descricao": "ENERGIA ELÉTRICA",
+                "saldo_anterior": 0.0,
+                "debito": 31898.96,
+                "credito": 0.0,
+                "saldo_atual": 31898.96,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52676",
+                "classificacao": "3.3.01.050.01",
+                "descricao": "HONORÁRIOS ADVOCATICIOS",
+                "saldo_anterior": 0.0,
+                "debito": 68842.0,
+                "credito": 0.0,
+                "saldo_atual": 68842.0,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52712",
+                "classificacao": "3.3.01.050.01",
+                "descricao": "HONORÁRIOS TRIBUTÁRIO",
+                "saldo_anterior": 0.0,
+                "debito": 438621.48,
+                "credito": 0.0,
+                "saldo_atual": 438621.48,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52682",
+                "classificacao": "3.3.01.050.01",
+                "descricao": "MANUTENÇÃO DE INSTALAÇÕES",
+                "saldo_anterior": 0.0,
+                "debito": 291373.09,
+                "credito": 0.0,
+                "saldo_atual": 291373.09,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52689",
+                "classificacao": "3.3.01.050.01",
+                "descricao": "MATERIAL DE COPA, HIGIENE E LIMPEZA",
+                "saldo_anterior": 0.0,
+                "debito": 8447.58,
+                "credito": 0.0,
+                "saldo_atual": 8447.58,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52694",
+                "classificacao": "3.3.01.050.01",
+                "descricao": "PERDAS COM DUPLICATAS INCOBRÁVEIS",
+                "saldo_anterior": 0.0,
+                "debito": 6910.28,
+                "credito": 0.0,
+                "saldo_atual": 6910.28,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52696",
+                "classificacao": "3.3.01.050.01",
+                "descricao": "POSTAIS E TELEGRÁFICAS",
+                "saldo_anterior": 0.0,
+                "debito": 5901.8,
+                "credito": 0.0,
+                "saldo_atual": 5901.8,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52706",
+                "classificacao": "3.3.01.050.01",
+                "descricao": "SERVIÇOS DE TERCEIROS PJ",
+                "saldo_anterior": 0.0,
+                "debito": 2374206.39,
+                "credito": 0.0,
+                "saldo_atual": 2374206.39,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52709",
+                "classificacao": "3.3.01.050.01",
+                "descricao": "TELEFONE MÓVEL",
+                "saldo_anterior": 0.0,
+                "debito": 22225.71,
+                "credito": 0.0,
+                "saldo_atual": 22225.71,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "codigo": "52900",
+            "classificacao": "3.3.01.06",
+            "descricao": "DESPESAS INDEDUTÍVEIS",
+            "saldo_anterior": 0.0,
+            "debito": 212746.96,
+            "credito": 0.0,
+            "saldo_atual": 212746.96,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "52906",
+                "classificacao": "3.3.01.060.01",
+                "descricao": "DESPESAS INDEDUTÍVEIS",
+                "saldo_anterior": 0.0,
+                "debito": 109039.74,
+                "credito": 0.0,
+                "saldo_atual": 109039.74,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52904",
+                "classificacao": "3.3.01.060.01",
+                "descricao": "MULTAS DE TRÂNSITO",
+                "saldo_anterior": 0.0,
+                "debito": 27288.5,
+                "credito": 0.0,
+                "saldo_atual": 27288.5,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "52952",
+                "classificacao": "3.3.01.070.01",
+                "descricao": "IPTU",
+                "saldo_anterior": 0.0,
+                "debito": 594.45,
+                "credito": 0.0,
+                "saldo_atual": 594.45,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "codigo": "53002",
+            "classificacao": "3.3.02",
+            "descricao": "DEPARTAMENTO COMERCIAL",
+            "saldo_anterior": 0.0,
+            "debito": 451655.1,
+            "credito": 0.0,
+            "saldo_atual": 451655.1,
+            "nivel": 2,
+            "filhos": [
+              {
+                "codigo": "53663",
+                "classificacao": "3.3.02.030.01",
+                "descricao": "FRETES E CARRETOS",
+                "saldo_anterior": 0.0,
+                "debito": 451655.1,
+                "credito": 0.0,
+                "saldo_atual": 451655.1,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "54050",
+                "classificacao": "3.3.03.02",
+                "descricao": "DEMAIS DESPESAS",
+                "saldo_anterior": 0.0,
+                "debito": 88904.54,
+                "credito": 0.0,
+                "saldo_atual": 88904.54,
+                "nivel": 3,
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codigo": "56000",
+        "classificacao": "3.4",
+        "descricao": "DESPESAS FINANCEIRAS",
+        "saldo_anterior": 0.0,
+        "debito": 281122.38,
+        "credito": 0.0,
+        "saldo_atual": 281122.38,
+        "nivel": 1,
+        "filhos": [
+          {
+            "codigo": "56002",
+            "classificacao": "3.4.01.01",
+            "descricao": "DESPESAS FINANCEIRAS",
+            "saldo_anterior": 0.0,
+            "debito": 281122.38,
+            "credito": 0.0,
+            "saldo_atual": 281122.38,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "56006",
+                "classificacao": "3.4.01.010.01",
+                "descricao": "IOF",
+                "saldo_anterior": 0.0,
+                "debito": 2940.87,
+                "credito": 0.0,
+                "saldo_atual": 2940.87,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "56008",
+                "classificacao": "3.4.01.010.01",
+                "descricao": "JUROS PASSIVOS",
+                "saldo_anterior": 0.0,
+                "debito": 30904.87,
+                "credito": 0.0,
+                "saldo_atual": 30904.87,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "56013",
+                "classificacao": "3.4.01.010.01",
+                "descricao": "MULTAS DE MORA OU ATRASO",
+                "saldo_anterior": 0.0,
+                "debito": 180164.9,
+                "credito": 0.0,
+                "saldo_atual": 180164.9,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "60000",
+    "classificacao": "4",
+    "descricao": "RECEITAS",
+    "saldo_anterior": 0.0,
+    "debito": 10631852.05,
+    "credito": 209523209.21,
+    "saldo_atual": 198891357.16,
+    "nivel": 0,
+    "filhos": [
+      {
+        "codigo": "60002",
+        "classificacao": "4.1.01",
+        "descricao": "RECEITA OPERACIONAL BRUTA",
+        "saldo_anterior": 0.0,
+        "debito": 221392.1,
+        "credito": 195944609.95,
+        "saldo_atual": 195723217.85,
+        "nivel": 2,
+        "filhos": [
+          {
+            "codigo": "60105",
+            "classificacao": "4.1.01.010.01",
+            "descricao": "RECEITAS COM CE",
+            "saldo_anterior": 0.0,
+            "debito": 0.0,
+            "credito": 13765946.76,
+            "saldo_atual": 13765946.76,
+            "nivel": 4,
+            "filhos": []
+          },
+          {
+            "codigo": "60101",
+            "classificacao": "4.1.01.010.01",
+            "descricao": "RECEITAS COM FRETES PRÓPRIOS",
+            "saldo_anterior": 0.0,
+            "debito": 0.0,
+            "credito": 144488.49,
+            "saldo_atual": 144488.49,
+            "nivel": 4,
+            "filhos": []
+          },
+          {
+            "codigo": "60500",
+            "classificacao": "4.1.01.05",
+            "descricao": "DEMAIS RECEITAS OPERACIONAIS",
+            "saldo_anterior": 0.0,
+            "debito": 76903.61,
+            "credito": 2217861.04,
+            "saldo_atual": 2140957.43,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "60504",
+                "classificacao": "4.1.01.050.01",
+                "descricao": "RECEITA QUEBRA DE CARGA",
+                "saldo_anterior": 0.0,
+                "debito": 0.0,
+                "credito": 521550.36,
+                "saldo_atual": 521550.36,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "60507",
+                "classificacao": "4.1.01.050.01",
+                "descricao": "REEMBOLSO DE SEGUROS",
+                "saldo_anterior": 0.0,
+                "debito": 0.0,
+                "credito": 775232.63,
+                "saldo_atual": 775232.63,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "60510",
+                "classificacao": "4.1.01.050.01",
+                "descricao": "REEMBOLSO DE TAXA DE ADMINISTRACAO",
+                "saldo_anterior": 0.0,
+                "debito": 0.0,
+                "credito": 64498.5,
+                "saldo_atual": 64498.5,
+                "nivel": 4,
+                "filhos": []
+              },
+              {
+                "codigo": "61408",
+                "classificacao": "4.1.02.040.01",
+                "descricao": "(+) CRÉDITO COFINS",
+                "saldo_anterior": 0.0,
+                "debito": 0.0,
+                "credito": 11134292.93,
+                "saldo_atual": 11134292.93,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codigo": "62000",
+        "classificacao": "4.2",
+        "descricao": "RECEITAS FINANCEIRAS",
+        "saldo_anterior": 0.0,
+        "debito": 0.0,
+        "credito": 26992.73,
+        "saldo_atual": 26992.73,
+        "nivel": 1,
+        "filhos": [
+          {
+            "codigo": "62002",
+            "classificacao": "4.2.01.01",
+            "descricao": "RECEITAS FINANCEIRAS",
+            "saldo_anterior": 0.0,
+            "debito": 0.0,
+            "credito": 26992.73,
+            "saldo_atual": 26992.73,
+            "nivel": 3,
+            "filhos": [
+              {
+                "codigo": "62005",
+                "classificacao": "4.2.01.010.01",
+                "descricao": "JUROS ATIVOS",
+                "saldo_anterior": 0.0,
+                "debito": 0.0,
+                "credito": 9483.67,
+                "saldo_atual": 9483.67,
+                "nivel": 4,
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
