@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "arquivo": "balancete-f3.pdf",
+    "total_registros": 5,
+    "descricao": "Balancete extraído do PDF"
+  },
+  "registros": [
+    {
+      "conta": "1",
+      "status": "S",
+      "classificacao": "1",
+      "descricao": "A T I V O 1 1 4 2 4 0 3 0 3 1 8 2 2 9 2 7 1 7 9 7 3 6 3 2 7 4 1 29 0 74 6",
+      "saldo_anterior": ",",
+      "debito": ",",
+      "credito": ",3",
+      "saldo": ",7",
+      "pagina": 1
+    },
+    {
+      "conta": "2",
+      "status": "S",
+      "classificacao": "1",
+      "descricao": "1 A T I V O C I R C U L A N T E 9 0 8 7 9 4 0 4 8 0 8 0 4 5 5 6 9 7 0 8 1 2 7 8 1 08 6 22 5",
+      "saldo_anterior": ",",
+      "debito": ",",
+      "credito": ",4",
+      "saldo": ",2",
+      "pagina": 1
+    },
+    {
+      "conta": "3",
+      "status": "S",
+      "classificacao": "1",
+      "descricao": "1 0 1 D I S P O N Í V E L 2 0 2 9 5 4 4 5 4 5 4 6 6 3 5 9 4 9 5 8 7 7 3 6 9 9 41 0",
+      "saldo_anterior": ",9",
+      "debito": ",",
+      "credito": ",4",
+      "saldo": ",1",
+      "pagina": 1
+    },
+    {
+      "conta": "4",
+      "status": "S",
+      "classificacao": "1",
+      "descricao": "1 0 1 0 0 1 C A I X A 7 8 7 2 0 0 0 0 0 7 87 2",
+      "saldo_anterior": "(",
+      "debito": ",4",
+      "credito": ")",
+      "saldo": ",",
+      "pagina": 1
+    },
+    {
+      "conta": "6",
+      "status": "S",
+      "classificacao": "1",
+      "descricao": "1 0 1 0 0 2 B A N C O S C O N T A M O V I M E N T O 2 0 0 3 6 6 9 1 6 6 3 3 3 6 6 9 6 6 2 2 1",
+      "saldo_anterior": ",",
+      "debito": ",",
+      "credito": ",3",
+      "saldo": ",0",
+      "pagina": 1
+    }
+  ]
+}
