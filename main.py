@@ -780,6 +780,12 @@ if __name__ == '__main__':
     LOG_FILE_PATH
   )
 
+  if test_connection():
+    app.logger.info("Conexao com o banco de dados estabelecida")
+  else:
+    app.logger.error("Erro ao conectar ao banco de dados")
+    exit(1)
+
   app.run(
     host='0.0.0.0',
     port=int(getenv('PORT', 5000)),

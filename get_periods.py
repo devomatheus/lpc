@@ -1,6 +1,7 @@
 from werkzeug.datastructures import FileStorage
 from PyPDF2 import PdfReader
 from pathlib import Path
+from io import BytesIO
 
 
 def read_periods_from_pdf(origem_pdf):
@@ -33,11 +34,19 @@ def _obter_stream(origem_pdf):
 
     if isinstance(origem_pdf, FileStorage):
         origem_pdf.stream.seek(0)
-        return origem_pdf.stream
+        # Copia o conteúdo do stream para BytesIO para garantir compatibilidade
+        # entre Windows e Linux, especialmente com PyPDF2
+        conteudo = origem_pdf.stream.read()
+        return BytesIO(conteudo)
 
     if hasattr(origem_pdf, "seek") and hasattr(origem_pdf, "read"):
         origem_pdf.seek(0)
-        return origem_pdf
+        # Se já for um BytesIO ou similar, retorna diretamente
+        if isinstance(origem_pdf, BytesIO):
+            return origem_pdf
+        # Caso contrário, copia para BytesIO para garantir compatibilidade
+        conteudo = origem_pdf.read()
+        return BytesIO(conteudo)
 
     raise TypeError("Origem do PDF inválida.")
 
