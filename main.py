@@ -5,7 +5,7 @@ Microsserviço Flask para ...
 from cronjob import cross_references, update_conta_arquivo_status
 from logging.handlers import RotatingFileHandler
 from upload_github import upload_file_to_github
-from get_periods import read_periods_from_pdf
+from get_periods import read_periods_from_pdf, periodos_speds
 from werkzeug.utils import secure_filename
 from flask import Flask, request, jsonify
 from parser import main as parser_main
@@ -19,7 +19,9 @@ from os import getenv
 from re import search
 import logging
 import os
+import tempfile
 from db import test_connection
+from speds import processa_sped
 
 
 load_dotenv()
@@ -126,7 +128,7 @@ def log_response(response):
 def get_periods():
   """
   Get Periods
-  Obtém os períodos de um arquivo de balancete
+  Obtém os períodos de um arquivo de balancete ou SPED
   ---
   tags:
     - Periods
@@ -137,7 +139,13 @@ def get_periods():
       name: file
       type: file
       required: true
-      description: Arquivo de balancete (PDF) para análise
+      description: Arquivo de balancete (PDF) ou SPED (.txt) para análise
+    - in: formData
+      name: modelo
+      type: string
+      required: false
+      default: balancete
+      description: Modelo do arquivo: "balancete" (padrão) ou "sped"
   """
   if 'file' not in request.files:
     return jsonify({
@@ -145,16 +153,59 @@ def get_periods():
       "message": "Campo 'file' é obrigatório na requisição."
     }), 400
 
-  arquivo_pdf = request.files['file']
+  arquivo = request.files['file']
 
-  if not arquivo_pdf or arquivo_pdf.filename == '':
+  if not arquivo or arquivo.filename == '':
     return jsonify({
       "status": "error",
-      "message": "Arquivo PDF não foi enviado ou está vazio."
+      "message": "Arquivo não foi enviado ou está vazio."
     }), 400
 
+  # Obter o parâmetro modelo, padrão é "balancete"
+  modelo = request.form.get('modelo', 'balancete').lower()
+
+  # Se o modelo for "sped", processar com periodos_speds
+  if modelo == 'sped':
+    try:
+      # Criar arquivo temporário para o SPED
+      with tempfile.NamedTemporaryFile(delete=False, suffix='.txt') as temp_file:
+        temp_path = temp_file.name
+        arquivo.save(temp_path)
+      
+      try:
+        # Processar o arquivo SPED
+        resultado = periodos_speds(temp_path)
+        
+        app.logger.info(
+          "Periodos SPED processados com sucesso | filename=%s",
+          arquivo.filename
+        )
+        
+        return jsonify({
+          "status": "success",
+          "message": "Periods retrieved successfully",
+          "periods": resultado.get('periodo', [])
+        }), 200
+        
+      finally:
+        # Remover arquivo temporário
+        if os.path.exists(temp_path):
+          os.unlink(temp_path)
+          app.logger.debug("Arquivo temporário removido | path=%s", temp_path)
+    
+    except Exception as err:
+      app.logger.warning(
+        "Erro ao processar SPED para periodos | erro=%s",
+        err
+      )
+      return jsonify({
+        "status": "error",
+        "message": str(err)
+      }), 400
+
+  # Processamento padrão para balancete (PDF)
   try:
-    text_extracted = read_periods_from_pdf(arquivo_pdf)
+    text_extracted = read_periods_from_pdf(arquivo)
   except ValueError as err:
     app.logger.warning(
       "Erro ao processar PDF para periodos | erro=%s",
@@ -641,12 +692,6 @@ def get_logs():
 def processar():
   """"""
   try:
-    if not test_connection():
-      return jsonify({
-        "status": "error",
-        "message": "Erro ao conectar ao banco de dados"
-      }), 500
-
     if 'file' not in request.files:
       app.logger.warning("Nenhum arquivo fornecido na requisição")
       return jsonify({
@@ -712,6 +757,128 @@ def processar():
     return jsonify({
       "status": "error",
       "message": "Failed to process file",
+      "details": str(e)
+    }), 500
+
+
+@app.route('/processar-sped', methods=['POST'])
+def processar_sped():
+  """
+  Processar SPED
+  Recebe um arquivo SPED e processa extraindo informações dos registros M210 e M610
+  ---
+  tags:
+    - SPED
+  consumes:
+    - multipart/form-data
+  parameters:
+    - in: formData
+      name: file
+      type: file
+      required: true
+      description: Arquivo SPED (.txt) para processamento
+  responses:
+    200:
+      description: Arquivo SPED processado com sucesso
+      schema:
+        type: object
+        properties:
+          status:
+            type: string
+            example: success
+          message:
+            type: string
+            example: Arquivo SPED processado com sucesso
+          data:
+            type: object
+            properties:
+              m210:
+                type: array
+                items:
+                  type: string
+                description: Campos do registro M210
+              m610:
+                type: array
+                items:
+                  type: string
+                description: Campos do registro M610
+    400:
+      description: Arquivo não fornecido ou inválido
+      schema:
+        type: object
+        properties:
+          status:
+            type: string
+            example: error
+          message:
+            type: string
+            example: Campo 'file' é obrigatório na requisição.
+    500:
+      description: Erro ao processar o arquivo SPED
+      schema:
+        type: object
+        properties:
+          status:
+            type: string
+            example: error
+          message:
+            type: string
+            example: Erro ao processar arquivo SPED
+          details:
+            type: string
+            example: Descrição detalhada do erro
+  """
+  try:
+    if 'file' not in request.files:
+      app.logger.warning("Nenhum arquivo fornecido na requisição de SPED")
+      return jsonify({
+        "status": "error",
+        "message": "Campo 'file' é obrigatório na requisição."
+      }), 400
+    
+    arquivo_sped = request.files['file']
+    
+    if not arquivo_sped or arquivo_sped.filename == '':
+      app.logger.warning("Arquivo SPED não foi enviado ou está vazio")
+      return jsonify({
+        "status": "error",
+        "message": "Arquivo SPED não foi enviado ou está vazio."
+      }), 400
+    
+    # Criar arquivo temporário
+    with tempfile.NamedTemporaryFile(delete=False, suffix='.txt') as temp_file:
+      temp_path = temp_file.name
+      arquivo_sped.save(temp_path)
+    
+    try:
+      # Processar o arquivo SPED
+      resultado = processa_sped(temp_path)
+      
+      app.logger.info(
+        "Arquivo SPED processado com sucesso | filename=%s",
+        arquivo_sped.filename
+      )
+      
+      return jsonify({
+        "status": "success",
+        "message": "Arquivo SPED processado com sucesso",
+        "data": resultado
+      }), 200
+      
+    finally:
+      # Remover arquivo temporário
+      if os.path.exists(temp_path):
+        os.unlink(temp_path)
+        app.logger.debug("Arquivo temporário removido | path=%s", temp_path)
+    
+  except Exception as e:
+    app.logger.error(
+      "Erro ao processar arquivo SPED | error=%s",
+      str(e)
+    )
+    return jsonify({
+      "status": "error",
+      "message": "Erro ao processar arquivo SPED",
       "details": str(e)
     }), 500
 

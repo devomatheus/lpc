@@ -64,3 +64,23 @@ def _extrair_texto(stream):
         raise ValueError("Não foi possível extrair texto do PDF.")
 
     return texto
+
+
+def periodos_speds(sped_file):
+    with open(sped_file, 'rb') as file:
+        speds = file.readlines()
+
+    for sped in speds:
+        if b'|0000|' in sped:
+            periodo = sped.decode('utf-8')
+            if periodo.startswith('|0000|'):
+                periodo_limpo = periodo.strip()
+                periodo_campos = periodo_limpo.split('|')
+                periodo_inicio = periodo_campos[6]
+                periodo_fim = periodo_campos[7]
+                periodo_inicio_formatado = f"{periodo_inicio[0:2]}/{periodo_inicio[2:4]}/{periodo_inicio[4:8]}"
+                periodo_fim_formatado = f"{periodo_fim[0:2]}/{periodo_fim[2:4]}/{periodo_fim[4:8]}"
+            
+    return {
+        'periodo': [periodo_inicio_formatado, periodo_fim_formatado]
+    }

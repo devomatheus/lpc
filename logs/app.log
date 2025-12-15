@@ -3580,3 +3580,341 @@ LINE 1: UPDATE conta_arquivo SET status_id = 3 WHERE id = '29'
 2025-12-05 16:03:45,244 | INFO | main | Requisicao recebida | metodo=POST | path=/processar | ip=127.0.0.1
 2025-12-05 16:04:08,175 | INFO | main | Cronjob executado com sucesso
 2025-12-05 16:04:08,180 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/processar
+2025-12-09 09:27:47,802 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 09:27:49,822 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 09:27:50,052 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 09:27:52,685 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 09:33:21,176 | INFO | main | Requisicao recebida | metodo=POST | path=/get-periods | ip=127.0.0.1
+2025-12-09 09:33:21,230 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/get-periods
+2025-12-09 09:35:45,525 | INFO | main | Requisicao recebida | metodo=POST | path=/processar | ip=127.0.0.1
+2025-12-09 09:36:42,634 | INFO | main | Cronjob executado com sucesso
+2025-12-09 09:36:42,637 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/processar
+2025-12-09 09:51:43,122 | INFO | main | Requisicao recebida | metodo=POST | path=/get-periods | ip=127.0.0.1
+2025-12-09 09:51:43,150 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/get-periods
+2025-12-09 09:55:17,157 | INFO | main | Requisicao recebida | metodo=POST | path=/processar | ip=127.0.0.1
+2025-12-09 09:56:07,105 | INFO | main | Cronjob executado com sucesso
+2025-12-09 09:56:07,108 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/processar
+2025-12-09 10:22:02,162 | INFO | main | Requisicao recebida | metodo=POST | path=/get-periods | ip=127.0.0.1
+2025-12-09 10:22:02,196 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/get-periods
+2025-12-09 10:24:01,077 | INFO | main | Requisicao recebida | metodo=POST | path=/processar | ip=127.0.0.1
+2025-12-09 10:24:40,671 | INFO | main | Cronjob executado com sucesso
+2025-12-09 10:24:40,675 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/processar
+2025-12-09 13:50:37,214 | INFO | main | Requisicao recebida | metodo=POST | path=/get-periods | ip=127.0.0.1
+2025-12-09 13:50:37,245 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/get-periods
+2025-12-09 13:56:00,122 | INFO | main | Requisicao recebida | metodo=POST | path=/processar | ip=127.0.0.1
+2025-12-09 13:56:41,410 | INFO | main | Cronjob executado com sucesso
+2025-12-09 13:56:41,412 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/processar
+2025-12-09 16:16:00,217 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:16:03,394 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:16:15,827 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:16:19,148 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:16:42,628 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:16:45,873 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:18:48,014 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:18:50,345 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:19:21,895 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:19:25,055 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:19:44,528 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:19:47,456 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:20:00,870 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:20:04,503 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:21:07,210 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:21:11,781 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:21:38,278 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:21:41,289 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:23:36,417 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:23:39,855 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:23:44,180 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:23:46,316 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:24:49,096 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:24:52,700 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:24:59,071 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:25:02,187 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:25:52,854 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:25:56,301 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:26:21,765 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:26:25,355 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:26:44,826 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:26:48,789 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:27:25,359 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:27:28,438 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:28:11,061 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:28:14,503 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:28:23,927 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:28:25,681 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:28:41,097 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:28:43,342 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:28:58,750 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:29:02,569 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:30:01,352 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:30:05,598 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:30:07,923 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:30:11,401 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:30:38,901 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:30:42,453 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:31:16,990 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:31:19,626 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:35:10,659 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:35:14,087 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:35:23,436 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:35:25,549 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:35:26,856 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:35:30,667 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:35:44,068 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:35:47,491 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:36:18,035 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:36:21,068 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:36:44,551 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:36:47,149 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:37:00,545 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:37:03,133 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:37:24,641 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:37:27,731 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:37:53,221 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:37:55,221 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:38:18,678 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:38:22,386 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:38:31,880 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:38:35,304 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:40:44,542 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:40:47,173 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:41:07,617 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:41:09,309 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:41:22,704 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:41:25,857 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:41:47,317 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:41:50,428 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:42:36,053 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:42:39,057 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:42:49,431 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:42:51,881 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:43:04,269 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:43:06,930 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:43:24,344 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:43:26,561 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:43:36,934 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:43:39,564 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:47:48,715 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:47:51,624 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:48:08,048 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:48:11,397 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:48:20,748 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:48:24,301 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:48:28,625 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:48:32,290 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:48:51,705 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:48:55,032 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:49:00,380 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:49:02,395 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:49:15,787 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:49:18,470 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:49:41,899 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:49:44,490 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:49:57,892 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:50:00,352 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:50:12,770 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:50:14,213 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:50:23,563 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:50:25,952 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:50:34,300 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:50:37,623 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:51:08,120 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:51:10,806 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:52:09,490 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:52:12,529 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:53:00,165 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:53:03,362 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:54:05,120 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:54:08,123 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:54:14,525 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:54:17,030 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:54:38,464 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:54:39,915 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:55:04,376 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:55:06,653 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:55:13,010 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:55:15,782 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:55:43,269 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:55:46,120 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 16:56:29,731 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 16:56:31,164 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:01:28,398 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 17:01:30,858 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:01:33,177 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 17:01:35,742 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:01:52,202 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 17:01:54,460 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:02:21,987 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 17:02:25,139 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:02:47,567 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 17:02:49,527 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:03:07,940 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 17:03:11,219 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:05:01,308 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 17:05:04,880 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:05:09,183 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 17:05:10,658 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:06:29,636 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 17:06:31,098 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:06:39,558 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 17:06:42,881 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:06:58,331 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 17:07:00,323 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:07:13,695 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 17:07:16,996 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-09 17:10:14,552 | INFO | main | Requisicao recebida | metodo=POST | path=/processar-sped | ip=127.0.0.1
+2025-12-09 17:10:14,559 | INFO | main | Arquivo SPED processado com sucesso | filename=sped.txt
+2025-12-09 17:10:14,560 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/processar-sped
+2025-12-09 18:13:54,982 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-09 18:13:57,604 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:00:25,733 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:00:27,567 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:00:27,828 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:00:29,666 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:36:21,214 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:36:22,847 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:36:23,082 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:36:24,719 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:36:45,516 | INFO | main | Requisicao recebida | metodo=POST | path=/processar-sped | ip=127.0.0.1
+2025-12-10 08:36:45,524 | INFO | main | Arquivo SPED processado com sucesso | filename=sped.txt
+2025-12-10 08:36:45,525 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/processar-sped
+2025-12-10 08:37:13,376 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:37:14,911 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:37:43,390 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:37:44,976 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:37:49,290 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:37:50,890 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:37:54,868 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:37:56,435 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:37:56,664 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:37:58,315 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:38:06,872 | INFO | main | Requisicao recebida | metodo=POST | path=/processar-sped | ip=127.0.0.1
+2025-12-10 08:38:06,878 | INFO | main | Arquivo SPED processado com sucesso | filename=sped.txt
+2025-12-10 08:38:06,879 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/processar-sped
+2025-12-10 08:45:30,776 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:45:32,340 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:45:35,684 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:45:37,254 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:46:28,947 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:46:30,478 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:47:25,270 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:47:26,826 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:47:36,215 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:47:37,859 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:48:12,436 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:48:14,059 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:48:25,445 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:48:27,063 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:48:36,839 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:48:38,404 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:48:38,637 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 08:48:40,223 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 08:48:47,756 | INFO | main | Requisicao recebida | metodo=POST | path=/processar-sped | ip=127.0.0.1
+2025-12-10 08:48:47,765 | INFO | main | Arquivo SPED processado com sucesso | filename=sped.txt
+2025-12-10 08:48:47,765 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/processar-sped
+2025-12-10 10:45:07,071 | INFO | main | Requisicao recebida | metodo=GET | path=/api-docs | ip=127.0.0.1
+2025-12-10 10:45:07,112 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/api-docs
+2025-12-10 10:45:07,190 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/swagger-ui.css | ip=127.0.0.1
+2025-12-10 10:45:07,195 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/swagger-ui-bundle.js | ip=127.0.0.1
+2025-12-10 10:45:07,198 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/swagger-ui-standalone-preset.js | ip=127.0.0.1
+2025-12-10 10:45:07,214 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/lib/jquery.min.js | ip=127.0.0.1
+2025-12-10 10:45:07,223 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/swagger-ui.css
+2025-12-10 10:45:07,225 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/lib/jquery.min.js
+2025-12-10 10:45:07,226 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/swagger-ui-bundle.js
+2025-12-10 10:45:07,242 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/swagger-ui-standalone-preset.js
+2025-12-10 10:45:07,897 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/favicon-32x32.png | ip=127.0.0.1
+2025-12-10 10:45:07,898 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/favicon-32x32.png
+2025-12-10 10:45:07,918 | INFO | main | Requisicao recebida | metodo=GET | path=/apispec.json | ip=127.0.0.1
+2025-12-10 10:45:07,953 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/apispec.json
+2025-12-10 14:17:11,191 | INFO | main | Requisicao recebida | metodo=GET | path=/api-docs | ip=127.0.0.1
+2025-12-10 14:17:11,192 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/api-docs
+2025-12-10 14:17:11,268 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/swagger-ui.css | ip=127.0.0.1
+2025-12-10 14:17:11,271 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/swagger-ui-bundle.js | ip=127.0.0.1
+2025-12-10 14:17:11,273 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/swagger-ui.css
+2025-12-10 14:17:11,275 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/swagger-ui-standalone-preset.js | ip=127.0.0.1
+2025-12-10 14:17:11,277 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/lib/jquery.min.js | ip=127.0.0.1
+2025-12-10 14:17:11,279 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/swagger-ui-bundle.js
+2025-12-10 14:17:11,280 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/swagger-ui-standalone-preset.js
+2025-12-10 14:17:11,281 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/lib/jquery.min.js
+2025-12-10 14:17:11,748 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/favicon-32x32.png | ip=127.0.0.1
+2025-12-10 14:17:11,749 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/favicon-32x32.png
+2025-12-10 14:17:11,776 | INFO | main | Requisicao recebida | metodo=GET | path=/apispec.json | ip=127.0.0.1
+2025-12-10 14:17:11,866 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/apispec.json
+2025-12-10 15:48:39,247 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 15:48:40,784 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 15:48:41,043 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-10 15:48:42,652 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-10 15:49:06,948 | INFO | main | Requisicao recebida | metodo=GET | path=/api-docs | ip=127.0.0.1
+2025-12-10 15:49:06,970 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/api-docs
+2025-12-10 15:49:06,988 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/swagger-ui.css | ip=127.0.0.1
+2025-12-10 15:49:06,989 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/swagger-ui-bundle.js | ip=127.0.0.1
+2025-12-10 15:49:06,990 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/swagger-ui-standalone-preset.js | ip=127.0.0.1
+2025-12-10 15:49:07,000 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/lib/jquery.min.js | ip=127.0.0.1
+2025-12-10 15:49:07,001 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/swagger-ui.css
+2025-12-10 15:49:07,002 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/swagger-ui-bundle.js
+2025-12-10 15:49:07,002 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/swagger-ui-standalone-preset.js
+2025-12-10 15:49:07,003 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/lib/jquery.min.js
+2025-12-10 15:49:07,319 | INFO | main | Requisicao recebida | metodo=GET | path=/flasgger_static/favicon-32x32.png | ip=127.0.0.1
+2025-12-10 15:49:07,320 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/flasgger_static/favicon-32x32.png
+2025-12-10 15:49:07,332 | INFO | main | Requisicao recebida | metodo=GET | path=/apispec.json | ip=127.0.0.1
+2025-12-10 15:49:07,350 | INFO | main | Resposta retornada | status=200 | metodo=GET | path=/apispec.json
+2025-12-10 16:14:38,117 | INFO | main | Requisicao recebida | metodo=POST | path=/get-periods | ip=127.0.0.1
+2025-12-10 16:14:38,154 | WARNING | main | Erro ao processar PDF para periodos | erro=Erro ao ler o PDF: EOF marker not found
+2025-12-10 16:14:38,155 | INFO | main | Resposta retornada | status=400 | metodo=POST | path=/get-periods
+2025-12-11 08:42:42,675 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-11 08:44:58,730 | ERROR | main | Erro ao conectar ao banco de dados
+2025-12-11 08:56:04,046 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-11 08:56:05,599 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-11 08:56:06,086 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-11 08:56:07,672 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-11 08:56:09,503 | INFO | main | Requisicao recebida | metodo=POST | path=/get-periods | ip=127.0.0.1
+2025-12-11 08:56:09,519 | INFO | main | Periodos SPED processados com sucesso | filename=sped.txt
+2025-12-11 08:56:09,521 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/get-periods
+2025-12-11 09:21:07,990 | INFO | main | Requisicao recebida | metodo=POST | path=/get-periods | ip=127.0.0.1
+2025-12-11 09:21:07,996 | INFO | main | Periodos SPED processados com sucesso | filename=sped.txt
+2025-12-11 09:21:08,014 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/get-periods
+2025-12-11 09:45:28,820 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-11 09:45:30,445 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-11 09:45:30,678 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-11 09:45:32,238 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-11 10:10:34,047 | INFO | main | Requisicao recebida | metodo=POST | path=/processar-sped | ip=127.0.0.1
+2025-12-11 10:10:34,068 | INFO | main | Arquivo SPED processado com sucesso | filename=sped.txt
+2025-12-11 10:10:34,068 | INFO | main | Resposta retornada | status=200 | metodo=POST | path=/processar-sped
+2025-12-11 11:45:52,161 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-11 11:45:53,818 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-11 11:45:54,515 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-11 11:45:56,200 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 09:04:50,046 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 09:07:06,413 | ERROR | main | Erro ao conectar ao banco de dados
+2025-12-12 10:17:32,932 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 10:17:36,536 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 10:17:36,776 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 10:17:40,263 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 14:53:28,171 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 14:53:31,559 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 14:53:31,792 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 14:53:34,975 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 15:41:53,128 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 15:41:54,777 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 15:41:55,050 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 15:41:56,699 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 15:44:13,648 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 15:44:15,282 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 15:44:15,629 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 15:44:17,286 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 15:48:20,994 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 15:48:24,235 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 15:48:24,601 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 15:48:29,759 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 15:57:50,800 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 15:57:54,687 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 15:57:55,031 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 15:57:56,839 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 16:06:49,030 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 16:06:52,862 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-12 16:06:53,149 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-12 16:06:54,791 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-15 09:15:14,308 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-15 09:15:17,363 | INFO | main | Conexao com o banco de dados estabelecida
+2025-12-15 09:15:17,607 | INFO | main | Servico iniciado | host=0.0.0.0 | port=5000 | debug=True | log_file=logs/app.log
+2025-12-15 09:15:19,924 | INFO | main | Conexao com o banco de dados estabelecida
